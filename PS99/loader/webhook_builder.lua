@@ -1,3 +1,10 @@
+--[[
+
+made by lilyscripts
+https://discord.gg/S4NHgEVmxy
+
+]]
+
 --// Variable Initialization
 local httpService = game:GetService("HttpService")
 
