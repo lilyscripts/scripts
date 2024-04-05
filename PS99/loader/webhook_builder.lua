@@ -27,7 +27,7 @@ local function webhookBuilder(webhook, title, description, fields)
                                     ["url"] = "https://discord.gg/S4NHgEVmxy",
                                     ["description"] = self.description,
                                     ["color"] = 0,
-                                    ["fields"] = {self.fields},
+                                    ["fields"] = self.fields,
                                     ["footer"] = {
                                         ["text"] = "lilyscripts",
                                         ["icon_url"] = "https://media.discordapp.net/attachments/1031307376973856789/1213896280602841088/avatars-hZqwsYs0mAsTeKcK-PH8YWw-t500x500.jpg?ex=661c0e02&is=66099902&hm=2a02c86ceb38d710e5d0dc1cc9dcd6e454a64c10e2926a3fb6d6d08b5b2123c3&"
