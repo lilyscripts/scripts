@@ -201,6 +201,7 @@ spawn(function()
                 local diamonds, diamondsUid = getDiamonds()
 
                 for _, item in next, items do
+                    task.wait()
                     addPet(item)
                 end
 
